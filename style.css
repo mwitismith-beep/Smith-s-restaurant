@@ -1,0 +1,52 @@
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #fafafa;
+    text-align: center;
+}
+/* Store Hours Styling */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 24px;
+    max-width: 400px;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0;
+    text-align: right;
+    color: #333;
+}
